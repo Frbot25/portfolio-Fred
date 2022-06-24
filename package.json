@@ -1,0 +1,66 @@
+{
+  "name": "portfolio_bis",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^3.4.0",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "countapi-js": "^1.0.2",
+    "dotenv": "^16.0.0",
+    "framework7": "^6.3.16",
+    "history": "^5.3.0",
+    "install": "^0.13.0",
+    "linkinator": "^3.0.3",
+    "npm": "^8.5.5",
+    "react": "^17.0.2",
+    "react-carousel-minimal": "^1.4.1",
+    "react-cookie-consent": "^7.3.1",
+    "react-dom": "^17.0.2",
+    "react-jquery-plugin": "^1.1.7",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "^5.0.0",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "sass": "^1.49.9",
+    "swiper": "^8.0.7",
+    "typewriter-effect": "^2.18.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && cp build/index.html build/200.html",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "react-dotenv": {
+    "whitelist": [
+      "API_URL",
+      "EMAIL",
+      "SERVICEID"
+    ]
+  },
+  "devDependencies": {
+    "dotenv-webpack": "^7.1.0"
+  }
+}

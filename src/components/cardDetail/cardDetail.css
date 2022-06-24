@@ -1,0 +1,241 @@
+.cardDetail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.cardDetail-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 850px;
+    box-sizing: border-box;
+    border: 1px solid #f1f1f1;
+    background: #302f2f8f;
+    border-radius: 15px;
+    opacity: 90%;
+    margin-bottom: 100px;
+}
+.detailCard-img {
+    width: 800px;
+    
+}
+.cardDetail-title {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: #f1f1f1;
+}
+.cardDetail-tech{
+    width: 60px;
+}
+.cardDetail-description {
+    background: #333;
+    font-size: 20px;
+    width: 800px;
+    color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.cardBouton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    background: rgb(88, 173, 3);
+    border-radius: 10px;
+}
+.cartDetail-button {
+    width: 150px;
+    color: #000;
+    font-size: 25px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+   text-decoration: none;
+}
+.span{
+    color: brown;
+    width: 100px;
+}
+.cardBouton:hover {
+    border: 2px solid brown;
+    background: rgb(117, 228, 6);
+    margin: -2px;
+    cursor: pointer;
+}
+.cardDetail-technologies.h2 {
+    width: 100%;
+}
+.cardDetail-technologies{
+    width: 400px;
+    height: 200px;
+    background: #f1f1f1;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+
+}
+.cardDetail-text {
+    color: rgb(128, 62, 62);
+}
+.cardDetail-titletech{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.cardDetail-titleTechnos{
+    color: #f1f1f1;
+    width: 50%;
+    margin: 10px 0 0 0;
+}
+.cardDetail-titleTechDetail{
+    color: #f1f1f1;
+    width: 50%;
+    margin: 10px 0 0 0;
+}
+.cardDetail-techSecondaire{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: #f1f1f1;
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+.cardDetail-boxTech{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100px;
+}
+.cardDetail-techDesc{
+    height: 100%;
+}
+.cardDetail-techSecondaire h2 {
+    color: #000;
+
+}
+.cardDetail-ul{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 50px;
+    list-style:circle;
+    position: relative;
+    width: 100%;
+    margin: 10px;
+    text-align: left;
+}
+.cardDetail-li{
+    margin: 0 10px;
+    position: relative;
+    top: 30px;
+    width: 100%;
+    cursor: none;
+}
+.detail {
+    width: 96%;
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.detail h2 {
+    background: #333;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    color: #f1f1f1;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+.detail p {
+    margin: 20px 0 50px;
+}
+.cardBouton-return{
+    height: 20px;
+}
+@media screen and (max-width: 650px){
+    .cardDetail-container {
+        display: flex;
+   
+        justify-content: center;
+        align-items: center;
+        width: 380px;
+        box-sizing: border-box;
+        border: 1px solid #f1f1f1;
+        background: #333;
+        border-radius: 15px;
+        opacity: 90%;
+        padding: 5px;
+    }
+    .detailCard-img {
+        width: 350px;
+
+    }
+    .cardDetail-description {
+        background: #333;
+        font-size: 20px;
+        width: 300px;
+        color: #f1f1f1;
+        padding: 10px;
+        border-radius: 5px;
+    }
+  
+    .detail {
+        width: 350px;
+        background: #f1f1f1;
+        padding: 20px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .cardBouton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        background: rgb(88, 173, 3);
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+    .cartDetail-button {
+        width: 150px;
+        color: #000;
+        font-size: 25px;
+        margin: 10px;
+        position: relative;
+        text-align: center;
+        align-items: center;
+       text-decoration: none;
+    }
+    .span{
+        color: brown;
+        width: 100px;
+    }
+    .cardBouton:hover {
+        border: 2px solid brown;
+        background: rgb(117, 228, 6);
+        margin: -2px;
+        cursor: pointer;
+    }
+    .cardDetail-technologies{
+        width: 95%;
+        height: 200px;
+        background: #f1f1f1;
+        border-radius: 15px;
+        justify-content: center;
+    }
+}

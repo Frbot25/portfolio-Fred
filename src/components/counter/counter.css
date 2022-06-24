@@ -1,0 +1,41 @@
+
+.counter-container{
+  position: relative;
+  left: 0;
+  bottom: 50px;
+  width: 230px ;
+
+}
+  .counter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: #302f2f8f;
+    margin: 1rem auto;
+    width: 230px;
+    position: relative;
+    left: 0;
+  }
+  .span__item{
+    box-sizing: border-box;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 6px;
+    background: #80b4e5;
+    margin: 2px 2px;
+    opacity: 1;
+
+    font-size: 2rem;
+    color: #f1f1f1;
+    width: 30px;
+    height: 35px;
+  }
+  .message {
+    color: #19191a;
+    text-align: center;
+    margin-top: 10px;
+  }
+  

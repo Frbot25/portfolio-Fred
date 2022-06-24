@@ -1,0 +1,36 @@
+.container-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contact-form {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}
+.contact-label {
+    font-size: 20px;
+    width: 300px;
+}
+.contact-input {
+    margin: 5px 0;
+    font-size: 20px;
+    width: 300px;
+}
+.contact-textarea{
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    margin: 10px 0;
+}
+.contact-bouton{
+    width: 150px;
+    background: #333;
+    opacity: 70%;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #f1f1f1;
+    font-size: 20px;
+    font-weight: bold;
+}

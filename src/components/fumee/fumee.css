@@ -1,0 +1,51 @@
+
+#wrap{
+    position:absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+#steam{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 75px;
+    margin-top: -75px;
+    z-index: 0;
+    opacity: 0;
+}
+.steam-one {
+    animation: steam-one 4s ease-out 1s infinite;
+}
+.steam-three{
+    animation: steam-one 4s ease-out 1s infinite;
+}
+@keyframes steam-one{
+    0%{
+        transform: translateY(0) translateX(0) scale(0.25);
+        opacity: 0.15;
+    }
+    100%{
+        transform: translatey(-200px) translateX(-20px) scale(1);
+        opacity: 0;
+    }
+}
+.steam-two {
+    animation: steam-two 4s ease-out 0.5s infinite;
+}
+.steam-four{
+    animation: steam-two 4s ease-out 1.5s infinite;
+}
+@keyframes steam-two{
+    0%{
+        transform: translateY(0) translateX(0) scale(0.25);
+        opacity: 0.15;
+    }
+    100%{
+        transform: translatey(-200px) translateX(-20px) scale(1);
+        opacity: 0;
+    }
+}
